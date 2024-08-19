@@ -1,2 +1,60 @@
-@import './variables.css'
+@import "./variables.css";
 
+nav,
+.tabs,
+.tab,
+.right-section,
+.right-group,
+.icons-group {
+	display: flex;
+}
+
+nav,
+.right-section,
+.right-group,
+.icons-group a {
+	align-items: center;
+}
+
+nav {
+	justify-content: space-between;
+	background-color: var(--background-white);
+	padding: 9px 15px;
+}
+
+.tabs {
+	gap: 2rem;
+}
+
+.tab {
+	display: flex;
+	align-items: center;
+	padding: 13px;
+	gap: 6px;
+}
+
+.right-group {
+	gap: 10px;
+}
+
+.right-group-items {
+	border-radius: 10px;
+	border: 1px solid #f0f0f0;
+	padding: 13px 20px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.03);
+	background-color: var(--background-white);
+	font-size: 16px;
+	color: #000000;
+	cursor: pointer;
+	transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.icons-group a {
+	display: flex;
+	align-items: center;
+}
+
+.icons-group a img {
+	height: 50px;
+	width: 50px;
+}

@@ -1,7 +1,7 @@
-@import './variables.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body{
-      background-color: var(--background-color);
-      font-family: var(--font-family);
+body {
+	background-color: var(--border-color-2);
+	font-family: var(--font-family);
 }

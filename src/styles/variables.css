@@ -1,7 +1,7 @@
 :root {
 	/* Background Colors */
-	--background-white: #ffffff;
 	--background-color: #fafafa;
+	--background-white: #ffffff;
 
 	/* Border Colors */
 	--border-color-1: #d8d8d8;
@@ -14,8 +14,7 @@
 	/* Status Colors */
 	--success-color: #19cc76;
 
-	/* Font Settings */
-	--font-family: "Roboto", sans-serif;
-	--font-weight-regular: 400;
-	--font-weight-bold: 700;
+	/* Font Families */
+	--font-family-roboto: "Roboto", sans-serif;
+	--font-family-inter: "Inter", sans-serif;
 }

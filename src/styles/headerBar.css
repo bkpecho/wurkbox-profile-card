@@ -1,0 +1,149 @@
+@import "../styles/variables.css";
+
+section,
+.left-section,
+.tags,
+.right-section {
+	display: flex;
+}
+
+section {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e4e4e4;
+	background-color: var(--background-white);
+	height: 65px;
+	top: 70px;
+	gap: 0px;
+	opacity: 0px;
+	padding: 0 48px 0 36px;
+}
+
+.left-section {
+	gap: 20px;
+}
+
+.customer-name {
+	font-family: var(--font-family-roboto);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18.75px;
+	text-align: left;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tags {
+	gap: 6px;
+	align-items: center;
+}
+
+.vip {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43px;
+	height: 23px;
+
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14.52px;
+	text-align: left;
+
+	font-family: var(--font-family-inter);
+	font-weight: 700;
+	background: #e1f3eb;
+	border-radius: 25px;
+	color: #19cc76;
+}
+
+.finance-approved {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 23px;
+
+	font-size: 12px;
+	line-height: 14.52px;
+	text-align: left;
+
+	font-family: var(--font-family-inter);
+	font-weight: 700;
+	background: #e1f3eb;
+	border-radius: 25px;
+	background: #fefbf0;
+	color: #9e7b00;
+}
+
+.google {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 91px;
+	height: 23px;
+
+	font-size: 12px;
+	line-height: 14.52px;
+	text-align: left;
+
+	font-family: var(--font-family-inter);
+	font-weight: 400;
+	background: #e1f3eb;
+	border-radius: 25px;
+	background: #ffffff;
+
+	border: 1px solid #dce3e9;
+}
+
+.right-section {
+	gap: 10px;
+}
+
+.job-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 144px;
+	gap: 6.09px;
+	border-radius: 10px;
+	opacity: 0px;
+
+	background-color: var(--font-action-color);
+	font-weight: 700;
+}
+
+.job-button a {
+	text-decoration: none;
+	color: var(--background-white);
+}
+
+.actions-button {
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	overflow: hidden;
+	box-shadow: 0px 4.6px 4.6px 0px #00000008;
+}
+
+.actions-button .text {
+	padding: 13px 20px;
+	background-color: #17b669;
+	color: white;
+}
+
+.actions-button .arrow {
+	width: 40px;
+	height: 40px;
+	background-color: #1b8a5c;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}

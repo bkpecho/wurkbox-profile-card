@@ -20,10 +20,11 @@ nav {
 	justify-content: space-between;
 	background-color: var(--background-white);
 	padding: 9px 15px;
+	border-bottom: 1px solid #e4e4e4;
 }
 
 .tabs {
-	gap: 2rem;
+	gap: 10px;
 }
 
 .tab {

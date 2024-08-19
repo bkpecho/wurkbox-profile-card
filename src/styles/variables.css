@@ -1,16 +1,20 @@
 :root {
-      /* Background Colors */
-      --background-color: #fafafa;
-    
-      /* Border Colors */
-      --border-color-1: #d8d8d8;
-      --border-color-2: #f2f2f2;
-    
-      /* Text and Action Colors */
-      --font-action-color: #0e1e29;
-      --action-color: #0094ff;
-    
-      /* Status Colors */
-      --success-color: #19cc76;
-    }
-    
+	/* Background Colors */
+	--background-color: #fafafa;
+
+	/* Border Colors */
+	--border-color-1: #d8d8d8;
+	--border-color-2: #f2f2f2;
+
+	/* Text and Action Colors */
+	--font-action-color: #0e1e29;
+	--action-color: #0094ff;
+
+	/* Status Colors */
+	--success-color: #19cc76;
+
+	/* Font Settings */
+	--font-family: "Roboto", sans-serif;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+}

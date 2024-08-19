@@ -2,6 +2,7 @@ import "../styles/profileCard.css";
 import NavBar from "./NavBar";
 import HeaderBar from "./HeaderBar";
 import SummaryCards from "./SummaryCards";
+import ContactNotes from "./ContactAndNotes";
 
 const profileCard = () => {
 	return (
@@ -9,6 +10,7 @@ const profileCard = () => {
 			<NavBar />
 			<HeaderBar />
 			<SummaryCards />
+			<ContactNotes />
 		</div>
 	);
 };

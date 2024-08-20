@@ -1,5 +1,5 @@
 import "../styles/profileCard.css";
-import NavBar from "./NavBar";
+import NavBar from "./nav";
 import HeaderBar from "./HeaderBar";
 import SummaryCards from "./SummaryCards";
 import ContactNotes from "./ContactAndNotes";

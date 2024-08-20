@@ -217,11 +217,11 @@
 }
 
 .jobs-table-list thead th:first-child {
-	border-radius: 29px 0 0 0;
+	border-radius: 29px 0 0 29px;
 }
 
 .jobs-table-list thead th:last-child {
-	border-radius: 0 29px 0 0;
+	border-radius: 0 29px 29px 0;
 }
 
 .jobs-table-list tbody {
@@ -250,6 +250,7 @@
 
 /* Status colors */
 .read-more {
+	cursor: pointer;
 	color: #aaaaaa;
 	font-size: 16px;
 	font-weight: 400;
@@ -280,7 +281,8 @@
 /* Column widths */
 .jobs-table-list th:nth-child(1),
 .jobs-table-list td:nth-child(1) {
-	width: 8%;
+	width: 9%;
+	padding-left: 28px;
 }
 .jobs-table-list th:nth-child(2),
 .jobs-table-list td:nth-child(2) {
@@ -296,19 +298,19 @@
 }
 .jobs-table-list th:nth-child(5),
 .jobs-table-list td:nth-child(5) {
-	width: 8%;
+	width: 12%;
 }
 .jobs-table-list th:nth-child(6),
 .jobs-table-list td:nth-child(6) {
-	width: 9%;
+	width: 7%;
 }
 .jobs-table-list th:nth-child(7),
 .jobs-table-list td:nth-child(7) {
-	width: 9%;
+	width: 7%;
 }
 .jobs-table-list th:nth-child(8),
 .jobs-table-list td:nth-child(8) {
-	width: 9%;
+	width: 7%;
 }
 .jobs-table-list th:nth-child(9),
 .jobs-table-list td:nth-child(9) {

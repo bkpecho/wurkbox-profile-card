@@ -8,6 +8,19 @@ import media from "../assets/propertySection/gallery.png";
 import message from "../assets/propertySection/message-text.png";
 import edit from "../assets/propertySection/pencil.png";
 
+interface Job {
+	id: number;
+	jobNumber: string;
+	bookingDate: string;
+	description: string;
+	type: string;
+	priority: string;
+	amount: string;
+	paid: string;
+	balance: string;
+	status: string;
+}
+
 const jobHeaderItems = [
 	{
 		id: "jobs",
@@ -55,19 +68,6 @@ const jobHeaderItems = [
 		isSelected: false,
 	},
 ];
-
-interface Job {
-	id: number;
-	jobNumber: string;
-	bookingDate: string;
-	description: string;
-	type: string;
-	priority: string;
-	amount: string;
-	paid: string;
-	balance: string;
-	status: string;
-}
 
 const jobs: Job[] = [
 	{

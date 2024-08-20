@@ -34,6 +34,10 @@ nav {
 	gap: 6px;
 }
 
+.right-section {
+	align-items: flex-end;
+}
+
 .right-group {
 	gap: 10px;
 }
@@ -50,9 +54,9 @@ nav {
 	transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.icons-group a {
+.icons-group {
 	display: flex;
-	align-items: center;
+	flex-direction: row;
 }
 
 .icons-group a img {

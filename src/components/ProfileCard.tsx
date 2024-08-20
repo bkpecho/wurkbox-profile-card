@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import HeaderBar from "./HeaderBar";
 import SummaryCards from "./SummaryCards";
 import ContactNotes from "./ContactAndNotes";
+import PropertiesSection from "./PropertiesSection";
 
 const profileCard = () => {
 	return (
@@ -11,6 +12,7 @@ const profileCard = () => {
 			<HeaderBar />
 			<SummaryCards />
 			<ContactNotes />
+			<PropertiesSection />
 		</div>
 	);
 };

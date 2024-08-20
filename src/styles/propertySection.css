@@ -1,0 +1,339 @@
+@import "../styles/variables.css";
+
+.property-component {
+	display: flex;
+	flex-direction: column;
+	margin: 36px;
+}
+
+.property-header-title {
+	font-family: var(--font-family-inter);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29.05px;
+	text-align: left;
+	margin-bottom: 16px;
+	margin-top: 38px;
+}
+
+.property-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	border-radius: 11px;
+	background: #ffffff;
+	box-shadow: 0px 9px 10.8px 0px #f3f3f338;
+	padding: 20px 24px;
+	margin-bottom: 6px;
+}
+
+.property-header-left {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.property-header-left h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.09px;
+	text-align: left;
+	color: #000000;
+}
+
+.property-header-left > div {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.property-header-left .property-header-dropdown {
+	background: #f2f2f2;
+	border-radius: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.property-header-right {
+	display: flex;
+	gap: 11px;
+}
+
+.property-header-right .property-header-edit {
+	height: 40px;
+	width: 48px;
+	top: 773px;
+	gap: 6.09px;
+	border-radius: 10px;
+	border: 1px solid #d8d8d8;
+	box-shadow: 0px 4px 4px 0px #0000000a;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.property-header-right .property-header-edit img {
+	height: 16px;
+	width: 16px;
+}
+
+.property-header-right .property-header-add-property {
+	display: flex;
+	align-items: center;
+
+	box-shadow: 0px 4px 4px 0px #0000000a;
+	border: 1px solid #d8d8d8;
+	background: #ffffff;
+	height: 40px;
+	gap: 6.09px;
+
+	padding: 4.87px 16px;
+	border-radius: 10px;
+}
+
+.property-header-add-property .add-property-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.property-header-add-property .add-property-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.75px;
+	text-align: left;
+	color: #000000;
+
+	text-decoration: none;
+}
+
+.property-site-details {
+	background: #ffffff;
+	box-shadow: 0px 0px 64.1px 0px #00000008;
+	box-shadow: 0px 12px 48px 0px #f2f2f2;
+	border-radius: 10px;
+}
+
+.property-site-details-header {
+	padding: 24px 26px;
+}
+.property-site-details-header h3 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21.93px;
+	text-align: left;
+
+	margin-bottom: 18px;
+}
+
+.property-site-details-header .property-site-address {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 14px;
+}
+
+.property-site-details-header .customer-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 40px;
+	padding: 0;
+
+	margin-bottom: 20px;
+}
+
+.property-site-details-header .contact-phone-icon {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.jobs-table {
+	display: flex;
+	flex-direction: column;
+	margin: 33px;
+}
+
+.jobs-table-header {
+	display: flex;
+}
+
+.jobs-table-header a {
+	cursor: pointer;
+	padding: 10px 24px;
+	display: flex;
+	gap: 6.09px;
+	align-items: center;
+}
+
+.jobs-table-header .jobs-notification {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14.06px;
+	text-align: center;
+	color: #15191b;
+	background: #f1f1f1;
+	border-radius: 14px;
+	height: 16px;
+	width: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jobs-table-span-selected {
+	border: 1px solid #0094ff;
+	box-shadow: 0px 2.43px 2.43px 0px #00000008;
+	border-radius: 10px;
+}
+
+.jobs-table-list {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-top: 10px;
+	table-layout: fixed;
+}
+
+.jobs-table-list thead {
+	height: 41px;
+	background: #f4f7f9;
+	border-radius: 29px 29px 0 0;
+}
+
+.jobs-table-list th {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18.75px;
+	text-align: left;
+	color: #0e1e29;
+	padding: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.jobs-table-list thead th:first-child {
+	border-radius: 29px 0 0 0;
+}
+
+.jobs-table-list thead th:last-child {
+	border-radius: 0 29px 0 0;
+}
+
+.jobs-table-list tbody {
+	background: white;
+}
+
+.jobs-table-list tbody td {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.75px;
+	text-align: left;
+	padding: 10px;
+	color: #0e1e29;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 10px;
+}
+
+.jobs-table-list td.description {
+	max-width: 200px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+/* Status colors */
+.jobs-table-list td.status {
+	font-weight: 700;
+}
+
+.jobs-table-list td.status.completed {
+	color: #19cc76;
+}
+
+.jobs-table-list td.status.ongoing {
+	color: #ff7a00;
+}
+
+.jobs-table-list td.status.canceled {
+	color: #a7a7a7;
+}
+
+/* Balance color */
+.jobs-table-list td.balance.positive {
+	color: #e22e2e;
+}
+
+/* Column widths */
+.jobs-table-list th:nth-child(1),
+.jobs-table-list td:nth-child(1) {
+	width: 8%;
+}
+.jobs-table-list th:nth-child(2),
+.jobs-table-list td:nth-child(2) {
+	width: 10%;
+}
+.jobs-table-list th:nth-child(3),
+.jobs-table-list td:nth-child(3) {
+	width: 25%;
+}
+.jobs-table-list th:nth-child(4),
+.jobs-table-list td:nth-child(4) {
+	width: 12%;
+}
+.jobs-table-list th:nth-child(5),
+.jobs-table-list td:nth-child(5) {
+	width: 8%;
+}
+.jobs-table-list th:nth-child(6),
+.jobs-table-list td:nth-child(6) {
+	width: 9%;
+}
+.jobs-table-list th:nth-child(7),
+.jobs-table-list td:nth-child(7) {
+	width: 9%;
+}
+.jobs-table-list th:nth-child(8),
+.jobs-table-list td:nth-child(8) {
+	width: 9%;
+}
+.jobs-table-list th:nth-child(9),
+.jobs-table-list td:nth-child(9) {
+	width: 10%;
+}
+
+/* Summary */
+
+.summary-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+.summary-item {
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+.summary-label {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21.93px;
+	color: #363636;
+}
+
+.summary-value {
+	font-size: 16px;
+	line-height: 21.93px;
+	color: #363636;
+}

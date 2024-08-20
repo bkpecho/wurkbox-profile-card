@@ -6,3 +6,16 @@ body {
 	background-color: var(--border-color-2);
 	font-family: var(--font-family-roboto);
 }
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}

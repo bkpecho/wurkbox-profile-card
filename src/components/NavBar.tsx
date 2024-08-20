@@ -14,31 +14,34 @@ const navbar = () => {
 	return (
 		<>
 			<nav>
-				<div>
-					<img src={logo} alt="Logo" />
+				<div className="left-section">
+					<div className="nav-logo">
+						<img src={logo} alt="Logo" />
+					</div>
+					<div className="tabs">
+						<div className="tab">
+							<img src={element} alt="Schedule" />
+							<span>Scheduler</span>
+						</div>
+						<div className="tab">
+							<img src={chart} alt="Reports" />
+							<span>Reports</span>
+						</div>
+						<div className="tab">
+							<img src={squareList} alt="Price Book" />
+							<span>Price Book</span>
+						</div>
+						<div className="tab">
+							<img src={gear} alt="Accounting" />
+							<span>Accounting</span>
+						</div>
+						<div className="tab">
+							<img src={gear} alt="Settings" />
+							<span>Settings</span>
+						</div>
+					</div>
 				</div>
-				<div className="tabs">
-					<div className="tab">
-						<img src={element} alt="Schedule" />
-						<span>Scheduler</span>
-					</div>
-					<div className="tab">
-						<img src={chart} alt="Reports" />
-						<span>Reports</span>
-					</div>
-					<div className="tab">
-						<img src={squareList} alt="Price Book" />
-						<span>Price Book</span>
-					</div>
-					<div className="tab">
-						<img src={gear} alt="Accounting" />
-						<span>Accounting</span>
-					</div>
-					<div className="tab">
-						<img src={gear} alt="Settings" />
-						<span>Settings</span>
-					</div>
-				</div>
+
 				<div className="right-section">
 					<div className="right-group">
 						<div className="right-group-items">New Job</div>

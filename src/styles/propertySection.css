@@ -249,6 +249,13 @@
 }
 
 /* Status colors */
+.read-more {
+	color: #aaaaaa;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.2px;
+	text-align: left;
+}
 .jobs-table-list td.status {
 	font-weight: 700;
 }

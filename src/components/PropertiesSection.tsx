@@ -178,7 +178,7 @@ const jobs: Job[] = [
 
 const truncateDescription = (description: string, maxLength: number = 110): string => {
 	if (description.length <= maxLength) return description;
-	return `${description.slice(0, maxLength)}... READ MORE`;
+	return `${description.slice(0, maxLength)}<span class="read-more">... Read More</span>`;
 };
 
 const PropertiesSection = () => {
@@ -288,7 +288,13 @@ const PropertiesSection = () => {
 											<td>{job.jobNumber}</td>
 											<td>{job.bookingDate}</td>
 											<td className="description">
-												{truncateDescription(job.description)}
+												<span
+													dangerouslySetInnerHTML={{
+														__html: truncateDescription(
+															job.description,
+														),
+													}}
+												/>
 											</td>
 											<td>{job.type}</td>
 											<td>{job.priority}</td>
